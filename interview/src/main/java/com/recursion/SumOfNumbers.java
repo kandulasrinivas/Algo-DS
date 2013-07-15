@@ -7,7 +7,7 @@ public class SumOfNumbers {
 	}
 	
 	public static int sumOfNumbers(int num) {
-		if (num/10 == 0) return 0;
-		return num + sumOfNumbers(num%10);
+		if (num/10 == 0) return num;
+		return num%10 + sumOfNumbers(num/10);
 	}
 }
