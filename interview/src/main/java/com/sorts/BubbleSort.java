@@ -1,5 +1,5 @@
 package com.sorts;
-
+//Bubble sort
 public class BubbleSort {
 	public static void main(String args[]) {
 		int arr[] = {10,2,4,3,12,90,8};
